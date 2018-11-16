@@ -12,8 +12,8 @@ log = logging.getLogger(__name__)
 
 
 available_works = {
-    'critique of pure reason': 'http://www.gutenberg.org/cache/epub/4280/pg4280.txt',
-    'critique of practical reason': 'http://www.gutenberg.org/cache/epub/5683/pg5683.txt'
+    'critique-of-pure-reason': 'http://www.gutenberg.org/cache/epub/4280/pg4280.txt',
+    'critique-of-practical-reason': 'http://www.gutenberg.org/cache/epub/5683/pg5683.txt'
     }
 
 
