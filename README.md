@@ -25,6 +25,21 @@
 + [/kant/short_sentence/\<string:title\>](https://flowriter.studio/kant/short_sentence/critique%20of%20pure%20reason)
 + [/kant/sentence/\<string:title\>](https://flowriter.studio/kant/sentence/critique%20of%20pure%20reason)
 
+### Run locally
+Open a terminal and run the following commands:
+
+    # Create a virtual environment
+    python3 -m venv venv
+
+    # Activate the virtual environemnt
+    . venv/bin/activate
+
+    # Install required libraries
+    pip install -r requirements.txt
+
+    # Start the development server
+    python3 app.py
+
 ### Deploying to server
 This API can be automatically deployed to a server using this Ansible code:
 https://github.com/kantsdog/flowriter_studio_deploy
